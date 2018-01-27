@@ -1,0 +1,31 @@
+{
+  "name": "metadatapp",
+  "version": "1.0.0",
+  "description": "drag your files and get their metadata",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . metadatapp --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu-R/metadatapp.git"
+  },
+  "keywords": [
+    "metadata"
+  ],
+  "author": "Mathieu-R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathieu-R/metadatapp/issues"
+  },
+  "homepage": "https://github.com/Mathieu-R/metadatapp#readme",
+  "dependencies": {
+    "musicmetadata": "^2.0.5",
+    "util-promisify": "^2.1.0"
+  },
+  "devDependencies": {
+    "electron": "^1.7.11",
+    "electron-packager": "^10.1.2"
+  }
+}
