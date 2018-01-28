@@ -10,7 +10,12 @@ class Viewer extends HTMLElement {
   }
 
   connectedCallback() {
-
+    this.content = this.querySelector('.content');
+    this.dragger = document.querySelector('.drag');
+    this.dragger.addEventListener('metadata', evt => {
+      console.log(evt.data);
+      this.content.innerHTML = evt.data;
+    });
   }
 
   disconnectedCallback() {

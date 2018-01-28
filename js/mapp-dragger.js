@@ -24,20 +24,42 @@ class Dragger extends HTMLElement {
     evt.preventDefault();
     const musics = Array.from(evt.dataTransfer.files);
     this.musics.push(...musics);
-    console.log(musics);
   }
 
   getMetadata (evt) {
-    this.musics.forEach(async music => {
+    const metadataArrayPromise = this.musics.reduce(async (current, music) => {
       try {
         const readableStream = fs.createReadStream(music.path);
         const metadata = await promisify(mm)(readableStream);
-        console.log(metadata);
+        await promisify(fs.writeFile)(__dirname + `/artworks/${metadata.album}`, metadata.picture[0].data);
+        const c = await current;
+        c.push(this.simpleMetadataObject(metadata));
         readableStream.close();
+        return c;
       } catch (err) {
         console.error(err);
       }
+    }, []);
+
+    metadataArrayPromise.then(metadataArray => {
+      const customEvent = new CustomEvent('metadata', {
+        bubbles: true,
+        data: JSON.stringify(metadataArray)
+      });
+      this.dispatchEvent(customEvent);
     });
+  }
+
+  simpleMetadataObject (metadata) {
+    return {
+      artist: metadata.artist[0],
+      album: metadata.album,
+      title: metadata.title,
+      year: metadata.year,
+      track: metadata.track.no,
+      genre: metadata.genre[0],
+      duration: metadata.duration
+    }
   }
 
   addEventListeners () {
