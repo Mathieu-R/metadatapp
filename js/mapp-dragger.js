@@ -2,6 +2,7 @@ const {ipcRenderer} = require('electron');
 const fs = require('fs');
 const promisify = require('util-promisify');
 const mm = require('musicmetadata');
+const slugify = require('slugify');
 
 class Dragger extends HTMLElement {
   static get observedAttributes() {
@@ -12,6 +13,7 @@ class Dragger extends HTMLElement {
     super();
     this.getMetadataButton = this.querySelector('.get-metadata');
     this.musics = [];
+    this.CDN = 'https://streamwave-music-streaming.s3.amazonaws.com';
     this.onDrop = this.onDrop.bind(this);
     this.getMetadata = this.getMetadata.bind(this);
   }
@@ -30,10 +32,12 @@ class Dragger extends HTMLElement {
     const metadataArrayPromise = this.musics.reduce(async (current, music) => {
       try {
         const readableStream = fs.createReadStream(music.path);
-        const metadata = await promisify(mm)(readableStream);
-        await promisify(fs.writeFile)(__dirname + `/artworks/${metadata.album}`, metadata.picture[0].data);
+        const metadata = await promisify(mm)(readableStream, {duration: true});
+        // in case of single
+        metadata.album = metadata.album || metadata.title;
+        await promisify(fs.writeFile)(__dirname + `/artworks/${slugify(metadata.album)}.jpg`, metadata.picture[0].data);
         const c = await current;
-        c.push(this.simpleMetadataObject(metadata));
+        c.push(this.simpleMetadataObject(metadata, music.name.replace(/\..*$/, '')));
         readableStream.close();
         return c;
       } catch (err) {
@@ -42,23 +46,27 @@ class Dragger extends HTMLElement {
     }, []);
 
     metadataArrayPromise.then(metadataArray => {
-      const customEvent = new CustomEvent('metadata', {
-        bubbles: true,
-        data: JSON.stringify(metadataArray)
-      });
-      this.dispatchEvent(customEvent);
-    });
+      return promisify(fs.writeFile)(__dirname + '/metadata.json', JSON.stringify(metadataArray, null, 2));
+    }).catch(err => console.error(err));
   }
 
-  simpleMetadataObject (metadata) {
+  simpleMetadataObject (metadata, filename) {
+    const albumSlug = slugify(metadata.album, {lower: true});
+    console.log(albumSlug);
     return {
       artist: metadata.artist[0],
       album: metadata.album,
       title: metadata.title,
       year: metadata.year,
-      track: metadata.track.no,
+      trackNumber: metadata.track.no,
       genre: metadata.genre[0],
-      duration: metadata.duration
+      duration: metadata.duration,
+      coverURL: `${this.CDN}/${albumSlug}/${albumSlug}.jpg`,
+      manifestURL: `${this.CDN}/${albumSlug}/${filename}/manifest-full.mpd`,
+      playlistHLSURL: `${this.CDN}/${albumSlug}/${filename}/playlist-all.m3u8`,
+      audio128URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-128.mp4`,
+      audio192URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-192.mp4`,
+      audio256URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-256.mp4`
     }
   }
 
@@ -69,7 +77,8 @@ class Dragger extends HTMLElement {
   }
 
   disconnectedCallback() {
-
+    this.removeEventListener('dragover', this.onDrop);
+    this.getMetadataButton.removeEventListener('click', this.getMetadata);
   }
 
   attributesChangedCallback(name, oldValue, newValue) {

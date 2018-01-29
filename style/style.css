@@ -13,8 +13,7 @@ html, body {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 1fr 350px;
+  display: flex;
   width: 100%;
   height: 100%;
 }
@@ -24,6 +23,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   border: 5px solid #444;
 }
 
@@ -44,16 +44,4 @@ html, body {
   border: none;
   background: #9526df;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-}
-
-.main .json-viewer {
-  display: flex;
-  flex-direction: column;
-}
-
-.main .json-viewer h1 {
-  font-size: 18px;
-  color: #2b2b2b;
-  text-align: center;
-  border-bottom: 2px solid black;
 }
