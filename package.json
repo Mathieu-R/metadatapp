@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Mathieu-R/metadatapp#readme",
   "dependencies": {
+    "apollo-client": "^2.2.1",
     "musicmetadata": "^2.0.5",
     "slugify": "^1.2.9",
     "util-promisify": "^2.1.0"

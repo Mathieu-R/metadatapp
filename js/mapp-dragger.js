@@ -3,6 +3,7 @@ const fs = require('fs');
 const promisify = require('util-promisify');
 const mm = require('musicmetadata');
 const slugify = require('slugify');
+const {ApolloClient} = require('apollo-client');
 
 class Dragger extends HTMLElement {
   static get observedAttributes() {
@@ -35,7 +36,7 @@ class Dragger extends HTMLElement {
         const metadata = await promisify(mm)(readableStream, {duration: true});
         // in case of single
         metadata.album = metadata.album || metadata.title;
-        await promisify(fs.writeFile)(__dirname + `/artworks/${slugify(metadata.album)}.jpg`, metadata.picture[0].data);
+        //await promisify(fs.writeFile)(__dirname + `/artworks/${slugify(metadata.album)}.jpg`, metadata.picture[0].data);
         const c = await current;
         c.push(this.simpleMetadataObject(metadata, music.name.replace(/\..*$/, '')));
         readableStream.close();
@@ -61,12 +62,12 @@ class Dragger extends HTMLElement {
       trackNumber: metadata.track.no,
       genre: metadata.genre[0],
       duration: metadata.duration,
-      coverURL: `${this.CDN}/${albumSlug}/${albumSlug}.jpg`,
-      manifestURL: `${this.CDN}/${albumSlug}/${filename}/manifest-full.mpd`,
-      playlistHLSURL: `${this.CDN}/${albumSlug}/${filename}/playlist-all.m3u8`,
-      audio128URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-128.mp4`,
-      audio192URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-192.mp4`,
-      audio256URL: `${this.CDN}/${albumSlug}/${filename}/${filename}-256.mp4`
+      coverURL: `${albumSlug}/${albumSlug}.jpg`,
+      manifestURL: `${albumSlug}/${filename}/manifest-full.mpd`,
+      playlistHLSURL: `${albumSlug}/${filename}/playlist-all.m3u8`,
+      audio128URL: `${albumSlug}/${filename}/${filename}-128.mp4`,
+      audio192URL: `${albumSlug}/${filename}/${filename}-192.mp4`,
+      audio256URL: `${albumSlug}/${filename}/${filename}-256.mp4`
     }
   }
 

@@ -7,12 +7,12 @@
     "trackNumber": 1,
     "genre": "score",
     "duration": 153,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/ability.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/01-1451113-Borrtex-Ability/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/01-1451113-Borrtex-Ability/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-256.mp4"
+    "coverURL": "ability/ability.jpg",
+    "manifestURL": "ability/01-1451113-Borrtex-Ability/manifest-full.mpd",
+    "playlistHLSURL": "ability/01-1451113-Borrtex-Ability/playlist-all.m3u8",
+    "audio128URL": "ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-128.mp4",
+    "audio192URL": "ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-192.mp4",
+    "audio256URL": "ability/01-1451113-Borrtex-Ability/01-1451113-Borrtex-Ability-256.mp4"
   },
   {
     "artist": "Borrtex",
@@ -22,12 +22,12 @@
     "trackNumber": 2,
     "genre": "classic",
     "duration": 234,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/ability.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/02-1451114-Borrtex-Choice/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/02-1451114-Borrtex-Choice/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-256.mp4"
+    "coverURL": "ability/ability.jpg",
+    "manifestURL": "ability/02-1451114-Borrtex-Choice/manifest-full.mpd",
+    "playlistHLSURL": "ability/02-1451114-Borrtex-Choice/playlist-all.m3u8",
+    "audio128URL": "ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-128.mp4",
+    "audio192URL": "ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-192.mp4",
+    "audio256URL": "ability/02-1451114-Borrtex-Choice/02-1451114-Borrtex-Choice-256.mp4"
   },
   {
     "artist": "Borrtex",
@@ -37,12 +37,12 @@
     "trackNumber": 3,
     "genre": "classic",
     "duration": 121,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/ability.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/03-1451127-Borrtex-Walking/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/03-1451127-Borrtex-Walking/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-256.mp4"
+    "coverURL": "ability/ability.jpg",
+    "manifestURL": "ability/03-1451127-Borrtex-Walking/manifest-full.mpd",
+    "playlistHLSURL": "ability/03-1451127-Borrtex-Walking/playlist-all.m3u8",
+    "audio128URL": "ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-128.mp4",
+    "audio192URL": "ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-192.mp4",
+    "audio256URL": "ability/03-1451127-Borrtex-Walking/03-1451127-Borrtex-Walking-256.mp4"
   },
   {
     "artist": "Borrtex",
@@ -52,12 +52,12 @@
     "trackNumber": 4,
     "genre": "classic",
     "duration": 152,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/ability.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/04-1451129-Borrtex-Determination/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/04-1451129-Borrtex-Determination/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-256.mp4"
+    "coverURL": "ability/ability.jpg",
+    "manifestURL": "ability/04-1451129-Borrtex-Determination/manifest-full.mpd",
+    "playlistHLSURL": "ability/04-1451129-Borrtex-Determination/playlist-all.m3u8",
+    "audio128URL": "ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-128.mp4",
+    "audio192URL": "ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-192.mp4",
+    "audio256URL": "ability/04-1451129-Borrtex-Determination/04-1451129-Borrtex-Determination-256.mp4"
   },
   {
     "artist": "Borrtex",
@@ -67,12 +67,12 @@
     "trackNumber": 5,
     "genre": "classic",
     "duration": 90,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/ability.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/05-1451131-Borrtex-Attainment/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/05-1451131-Borrtex-Attainment/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-256.mp4"
+    "coverURL": "ability/ability.jpg",
+    "manifestURL": "ability/05-1451131-Borrtex-Attainment/manifest-full.mpd",
+    "playlistHLSURL": "ability/05-1451131-Borrtex-Attainment/playlist-all.m3u8",
+    "audio128URL": "ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-128.mp4",
+    "audio192URL": "ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-192.mp4",
+    "audio256URL": "ability/05-1451131-Borrtex-Attainment/05-1451131-Borrtex-Attainment-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -82,12 +82,12 @@
     "trackNumber": 1,
     "genre": "Classical",
     "duration": 263,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/01-14013-Galdson-Roots/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/01-14013-Galdson-Roots/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/01-14013-Galdson-Roots/manifest-full.mpd",
+    "playlistHLSURL": "roots/01-14013-Galdson-Roots/playlist-all.m3u8",
+    "audio128URL": "roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-128.mp4",
+    "audio192URL": "roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-192.mp4",
+    "audio256URL": "roots/01-14013-Galdson-Roots/01-14013-Galdson-Roots-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -97,12 +97,12 @@
     "trackNumber": 2,
     "genre": "Classical",
     "duration": 221,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/02-14014-Galdson-Old times/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/02-14014-Galdson-Old times/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/02-14014-Galdson-Old times/manifest-full.mpd",
+    "playlistHLSURL": "roots/02-14014-Galdson-Old times/playlist-all.m3u8",
+    "audio128URL": "roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-128.mp4",
+    "audio192URL": "roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-192.mp4",
+    "audio256URL": "roots/02-14014-Galdson-Old times/02-14014-Galdson-Old times-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -112,12 +112,12 @@
     "trackNumber": 3,
     "genre": "Classical",
     "duration": 162,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/03-14015-Galdson-Life is good/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/03-14015-Galdson-Life is good/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/03-14015-Galdson-Life is good/manifest-full.mpd",
+    "playlistHLSURL": "roots/03-14015-Galdson-Life is good/playlist-all.m3u8",
+    "audio128URL": "roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-128.mp4",
+    "audio192URL": "roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-192.mp4",
+    "audio256URL": "roots/03-14015-Galdson-Life is good/03-14015-Galdson-Life is good-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -127,12 +127,12 @@
     "trackNumber": 4,
     "genre": "piano",
     "duration": 245,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/04-14016-Galdson-Come back home/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/04-14016-Galdson-Come back home/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/04-14016-Galdson-Come back home/manifest-full.mpd",
+    "playlistHLSURL": "roots/04-14016-Galdson-Come back home/playlist-all.m3u8",
+    "audio128URL": "roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-128.mp4",
+    "audio192URL": "roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-192.mp4",
+    "audio256URL": "roots/04-14016-Galdson-Come back home/04-14016-Galdson-Come back home-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -142,12 +142,12 @@
     "trackNumber": 5,
     "genre": "piano",
     "duration": 207,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/05-14017-Galdson-Distance friend/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/05-14017-Galdson-Distance friend/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/05-14017-Galdson-Distance friend/manifest-full.mpd",
+    "playlistHLSURL": "roots/05-14017-Galdson-Distance friend/playlist-all.m3u8",
+    "audio128URL": "roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-128.mp4",
+    "audio192URL": "roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-192.mp4",
+    "audio256URL": "roots/05-14017-Galdson-Distance friend/05-14017-Galdson-Distance friend-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -157,12 +157,12 @@
     "trackNumber": 6,
     "genre": "Classical",
     "duration": 155,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/06-14018-Galdson-Sea heart/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/06-14018-Galdson-Sea heart/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/06-14018-Galdson-Sea heart/manifest-full.mpd",
+    "playlistHLSURL": "roots/06-14018-Galdson-Sea heart/playlist-all.m3u8",
+    "audio128URL": "roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-128.mp4",
+    "audio192URL": "roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-192.mp4",
+    "audio256URL": "roots/06-14018-Galdson-Sea heart/06-14018-Galdson-Sea heart-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -172,12 +172,12 @@
     "trackNumber": 7,
     "genre": "piano",
     "duration": 154,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/07-14019-Galdson-Playing together/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/07-14019-Galdson-Playing together/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/07-14019-Galdson-Playing together/manifest-full.mpd",
+    "playlistHLSURL": "roots/07-14019-Galdson-Playing together/playlist-all.m3u8",
+    "audio128URL": "roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-128.mp4",
+    "audio192URL": "roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-192.mp4",
+    "audio256URL": "roots/07-14019-Galdson-Playing together/07-14019-Galdson-Playing together-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -187,12 +187,12 @@
     "trackNumber": 8,
     "genre": "piano",
     "duration": 182,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/08-14020-Galdson-Destiny/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/08-14020-Galdson-Destiny/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/08-14020-Galdson-Destiny/manifest-full.mpd",
+    "playlistHLSURL": "roots/08-14020-Galdson-Destiny/playlist-all.m3u8",
+    "audio128URL": "roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-128.mp4",
+    "audio192URL": "roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-192.mp4",
+    "audio256URL": "roots/08-14020-Galdson-Destiny/08-14020-Galdson-Destiny-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -202,12 +202,12 @@
     "trackNumber": 9,
     "genre": "piano",
     "duration": 239,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/09-14021-Galdson-Resignation/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/09-14021-Galdson-Resignation/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/09-14021-Galdson-Resignation/manifest-full.mpd",
+    "playlistHLSURL": "roots/09-14021-Galdson-Resignation/playlist-all.m3u8",
+    "audio128URL": "roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-128.mp4",
+    "audio192URL": "roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-192.mp4",
+    "audio256URL": "roots/09-14021-Galdson-Resignation/09-14021-Galdson-Resignation-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -217,12 +217,12 @@
     "trackNumber": 10,
     "genre": "Classical",
     "duration": 298,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/10-14022-Galdson-Learning to live/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/10-14022-Galdson-Learning to live/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/10-14022-Galdson-Learning to live/manifest-full.mpd",
+    "playlistHLSURL": "roots/10-14022-Galdson-Learning to live/playlist-all.m3u8",
+    "audio128URL": "roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-128.mp4",
+    "audio192URL": "roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-192.mp4",
+    "audio256URL": "roots/10-14022-Galdson-Learning to live/10-14022-Galdson-Learning to live-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -232,12 +232,12 @@
     "trackNumber": 11,
     "genre": "emotion",
     "duration": 127,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/11-14023-Galdson-First steps/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/11-14023-Galdson-First steps/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/11-14023-Galdson-First steps/manifest-full.mpd",
+    "playlistHLSURL": "roots/11-14023-Galdson-First steps/playlist-all.m3u8",
+    "audio128URL": "roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-128.mp4",
+    "audio192URL": "roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-192.mp4",
+    "audio256URL": "roots/11-14023-Galdson-First steps/11-14023-Galdson-First steps-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -247,12 +247,12 @@
     "trackNumber": 12,
     "genre": "piano",
     "duration": 170,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/12-14024-Galdson-Legends/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/12-14024-Galdson-Legends/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/12-14024-Galdson-Legends/manifest-full.mpd",
+    "playlistHLSURL": "roots/12-14024-Galdson-Legends/playlist-all.m3u8",
+    "audio128URL": "roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-128.mp4",
+    "audio192URL": "roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-192.mp4",
+    "audio256URL": "roots/12-14024-Galdson-Legends/12-14024-Galdson-Legends-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -262,12 +262,12 @@
     "trackNumber": 13,
     "genre": "piano",
     "duration": 125,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/13-14025-Galdson-Resurrection/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/13-14025-Galdson-Resurrection/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/13-14025-Galdson-Resurrection/manifest-full.mpd",
+    "playlistHLSURL": "roots/13-14025-Galdson-Resurrection/playlist-all.m3u8",
+    "audio128URL": "roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-128.mp4",
+    "audio192URL": "roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-192.mp4",
+    "audio256URL": "roots/13-14025-Galdson-Resurrection/13-14025-Galdson-Resurrection-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -277,12 +277,12 @@
     "trackNumber": 14,
     "genre": "piano",
     "duration": 169,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/14-14026-Galdson-I believe in you/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/14-14026-Galdson-I believe in you/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/14-14026-Galdson-I believe in you/manifest-full.mpd",
+    "playlistHLSURL": "roots/14-14026-Galdson-I believe in you/playlist-all.m3u8",
+    "audio128URL": "roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-128.mp4",
+    "audio192URL": "roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-192.mp4",
+    "audio256URL": "roots/14-14026-Galdson-I believe in you/14-14026-Galdson-I believe in you-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -292,12 +292,12 @@
     "trackNumber": 15,
     "genre": "piano",
     "duration": 155,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/15-14027-Galdson-Sharing coffee/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/15-14027-Galdson-Sharing coffee/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/15-14027-Galdson-Sharing coffee/manifest-full.mpd",
+    "playlistHLSURL": "roots/15-14027-Galdson-Sharing coffee/playlist-all.m3u8",
+    "audio128URL": "roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-128.mp4",
+    "audio192URL": "roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-192.mp4",
+    "audio256URL": "roots/15-14027-Galdson-Sharing coffee/15-14027-Galdson-Sharing coffee-256.mp4"
   },
   {
     "artist": "Galdson",
@@ -307,12 +307,12 @@
     "trackNumber": 16,
     "genre": "piano",
     "duration": 151,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/roots.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/16-14028-Galdson-Choosing my life/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/16-14028-Galdson-Choosing my life/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-256.mp4"
+    "coverURL": "roots/roots.jpg",
+    "manifestURL": "roots/16-14028-Galdson-Choosing my life/manifest-full.mpd",
+    "playlistHLSURL": "roots/16-14028-Galdson-Choosing my life/playlist-all.m3u8",
+    "audio128URL": "roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-128.mp4",
+    "audio192URL": "roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-192.mp4",
+    "audio256URL": "roots/16-14028-Galdson-Choosing my life/16-14028-Galdson-Choosing my life-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -322,12 +322,12 @@
     "trackNumber": 1,
     "genre": "Easy Listening/New Age",
     "duration": 356,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo/01-345461-Jose Konda-Bolingo_Na_Yo_Nkolo-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -337,12 +337,12 @@
     "trackNumber": 2,
     "genre": "Pop/Pop",
     "duration": 261,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/02-345481-Jose Konda-Golgotha/02-345481-Jose Konda-Golgotha-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -352,12 +352,12 @@
     "trackNumber": 3,
     "genre": "World",
     "duration": 289,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/03-345526-Jose Konda-To_Milengele/03-345526-Jose Konda-To_Milengele-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -367,12 +367,12 @@
     "trackNumber": 4,
     "genre": "World",
     "duration": 270,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/04-345535-Jose Konda-Masiya/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/04-345535-Jose Konda-Masiya/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/04-345535-Jose Konda-Masiya/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/04-345535-Jose Konda-Masiya/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/04-345535-Jose Konda-Masiya/04-345535-Jose Konda-Masiya-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -382,12 +382,12 @@
     "trackNumber": 5,
     "genre": "World",
     "duration": 281,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/05-345542-Jose Konda-Etelemelo/05-345542-Jose Konda-Etelemelo-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -397,12 +397,12 @@
     "trackNumber": 6,
     "genre": "World",
     "duration": 307,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/06-345570-Jose Konda-Seisme/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/06-345570-Jose Konda-Seisme/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/06-345570-Jose Konda-Seisme/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/06-345570-Jose Konda-Seisme/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/06-345570-Jose Konda-Seisme/06-345570-Jose Konda-Seisme-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -412,12 +412,12 @@
     "trackNumber": 7,
     "genre": "World",
     "duration": 348,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/07-345596-Jose Konda-Yesu_A_Lobaki/07-345596-Jose Konda-Yesu_A_Lobaki-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -427,12 +427,12 @@
     "trackNumber": 8,
     "genre": "World",
     "duration": 215,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/08-345611-Jose Konda-Mingi_Bayaki/08-345611-Jose Konda-Mingi_Bayaki-256.mp4"
   },
   {
     "artist": "Jose Konda",
@@ -442,12 +442,12 @@
     "trackNumber": 9,
     "genre": "World",
     "duration": 396,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/bolingo-na-nzambe.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-256.mp4"
+    "coverURL": "bolingo-na-nzambe/bolingo-na-nzambe.jpg",
+    "manifestURL": "bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/manifest-full.mpd",
+    "playlistHLSURL": "bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/playlist-all.m3u8",
+    "audio128URL": "bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-128.mp4",
+    "audio192URL": "bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-192.mp4",
+    "audio256URL": "bolingo-na-nzambe/09-345615-Jose Konda-Kimbala/09-345615-Jose Konda-Kimbala-256.mp4"
   },
   {
     "artist": "Mady",
@@ -457,12 +457,12 @@
     "trackNumber": 1,
     "genre": "",
     "duration": 38,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/01-840765-Mady-Intro/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/01-840765-Mady-Intro/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/01-840765-Mady-Intro/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/01-840765-Mady-Intro/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/01-840765-Mady-Intro/01-840765-Mady-Intro-256.mp4"
   },
   {
     "artist": "Mady",
@@ -472,12 +472,12 @@
     "trackNumber": 2,
     "genre": "",
     "duration": 212,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/02-856113-Mady-Caliente/02-856113-Mady-Caliente-256.mp4"
   },
   {
     "artist": "Mady",
@@ -487,12 +487,12 @@
     "trackNumber": 3,
     "genre": "",
     "duration": 270,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/03-856115-Mady-Je regrette/03-856115-Mady-Je regrette-256.mp4"
   },
   {
     "artist": "Mady",
@@ -502,12 +502,12 @@
     "trackNumber": 4,
     "genre": "",
     "duration": 62,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/04-856114-Mady-Qui est-ce _interlude_/04-856114-Mady-Qui est-ce _interlude_-256.mp4"
   },
   {
     "artist": "Mady",
@@ -517,12 +517,12 @@
     "trackNumber": 5,
     "genre": "",
     "duration": 39,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/05-856117-Mady-Laisse entrer la fraicheur/05-856117-Mady-Laisse entrer la fraicheur-256.mp4"
   },
   {
     "artist": "Mady",
@@ -532,12 +532,12 @@
     "trackNumber": 6,
     "genre": "",
     "duration": 245,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/06-856124-Mady-Dilemme _feat/06-856124-Mady-Dilemme _feat-256.mp4"
   },
   {
     "artist": "Mady",
@@ -547,12 +547,12 @@
     "trackNumber": 7,
     "genre": "",
     "duration": 118,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/07-856128-Mady-Different _interlude_/07-856128-Mady-Different _interlude_-256.mp4"
   },
   {
     "artist": "Mady",
@@ -562,12 +562,12 @@
     "trackNumber": 8,
     "genre": "",
     "duration": 245,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/08-856129-Mady-Les mots me manquent/08-856129-Mady-Les mots me manquent-256.mp4"
   },
   {
     "artist": "Mady",
@@ -577,12 +577,12 @@
     "trackNumber": 9,
     "genre": "",
     "duration": 236,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/09-856130-Mady-Jusqu_au bout/09-856130-Mady-Jusqu_au bout-256.mp4"
   },
   {
     "artist": "Mady",
@@ -592,12 +592,12 @@
     "trackNumber": 10,
     "genre": "",
     "duration": 112,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/10-856131-Mady-Outro/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/10-856131-Mady-Outro/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-256.mp4"
+    "coverURL": "laisse-entrer-la-fraicheur/laisse-entrer-la-fraicheur.jpg",
+    "manifestURL": "laisse-entrer-la-fraicheur/10-856131-Mady-Outro/manifest-full.mpd",
+    "playlistHLSURL": "laisse-entrer-la-fraicheur/10-856131-Mady-Outro/playlist-all.m3u8",
+    "audio128URL": "laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-128.mp4",
+    "audio192URL": "laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-192.mp4",
+    "audio256URL": "laisse-entrer-la-fraicheur/10-856131-Mady-Outro/10-856131-Mady-Outro-256.mp4"
   },
   {
     "artist": "Tim Praiz",
@@ -607,11 +607,11 @@
     "trackNumber": 4,
     "genre": "greatvocals",
     "duration": 297,
-    "coverURL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/praise-your-name.jpg",
-    "manifestURL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/Tim_Praiz_-_Praise_Your_Name/manifest-full.mpd",
-    "playlistHLSURL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/Tim_Praiz_-_Praise_Your_Name/playlist-all.m3u8",
-    "audio128URL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-128.mp4",
-    "audio192URL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-192.mp4",
-    "audio256URL": "https://streamwave-music-streaming.s3.amazonaws.com/praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-256.mp4"
+    "coverURL": "praise-your-name/praise-your-name.jpg",
+    "manifestURL": "praise-your-name/Tim_Praiz_-_Praise_Your_Name/manifest-full.mpd",
+    "playlistHLSURL": "praise-your-name/Tim_Praiz_-_Praise_Your_Name/playlist-all.m3u8",
+    "audio128URL": "praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-128.mp4",
+    "audio192URL": "praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-192.mp4",
+    "audio256URL": "praise-your-name/Tim_Praiz_-_Praise_Your_Name/Tim_Praiz_-_Praise_Your_Name-256.mp4"
   }
 ]
