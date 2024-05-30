@@ -1,2 +1,21 @@
-node_modules
-.DS_STORE
+# Logs
+logs
+*.log
+
+.env
+dist
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+__pycache__
+
+data
