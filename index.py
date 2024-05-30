@@ -40,8 +40,9 @@ def extract_metadata(fullpath, filename, extension):
     img.save(output_cover_art, "JPEG")
 
     return {
-        "artist": metadata["albumartist"][0],
         "album": metadata["album"][0],
+        "artist": metadata["artist"][0],
+        "album_artist": metadata["albumartist"][0],
         "title": metadata["title"][0],
         "year": metadata["date"][0].split("-")[0],
         "genre": metadata["genre"][0] if "genre" in metadata else "Unknown",
@@ -85,12 +86,13 @@ def main(media_directory):
 
     # spawn a shell process to encode files and create playlists
     lib_folder = os.path.join(os.path.dirname(__file__), "lib")
-    print(f"DEBUG: lib_folder: {lib_folder}")
+    # print(f"DEBUG: lib_folder: {lib_folder}")
     args = [media_directory, cwd, album]
     process = subprocess.run([os.path.join(lib_folder, "encoder.sh")] + args)
 
     # write metadatas to a csv file
     metadatas_df = pd.DataFrame(metadatas)
+    metadatas_df = metadatas_df.sort_values(by=["track_number"])
 
     metadatas_df.to_csv(
         f"{output_folder}/metadatas.csv", sep=";", decimal=".", index=False
