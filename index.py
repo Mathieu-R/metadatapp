@@ -6,6 +6,7 @@ import pandas as pd
 from mutagen.flac import FLAC
 from mutagen.m4a import M4A
 from mutagen.mp3 import MP3
+from PIL import Image
 from slugify import slugify
 
 
@@ -23,6 +24,21 @@ def extract_metadata(fullpath, filename, extension):
 
     album_slug = slugify(metadata["album"][0], separator="_")
     filename_slug = slugify(filename, separator="_")
+
+    output_folder = f"data/{album_slug}"
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder, exist_ok=True)
+
+    cover_art = metadata.pictures[0]
+    output_cover_art = f"{output_folder}/{album_slug}.jpg"
+
+    with open(f"{output_cover_art}", "wb") as f:
+        f.write(cover_art.data)
+
+    img = Image.open(f"{output_cover_art}")
+    img = img.resize((300, 300))
+    img.save(output_cover_art, "JPEG")
+
     return {
         "artist": metadata["albumartist"][0],
         "album": metadata["album"][0],
@@ -63,6 +79,7 @@ def main(directory):
 
     album = metadatas[0]["album"]
     album_slug = slugify(album, separator="_")
+    output_folder = f"data/{album_slug}"
 
     # spawn a shell process to encode files and create playlists
     args = [directory, album]
@@ -70,6 +87,7 @@ def main(directory):
         [os.path.join(os.getcwd(), "lib/encoder.sh")] + args,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
+        close_fds=True,
     )
 
     while True:
@@ -95,10 +113,6 @@ def main(directory):
 
     # write metadatas to a csv file
     metadatas_df = pd.DataFrame(metadatas)
-
-    output_folder = f"data/{slugify(directory.split('/')[-1])}/{album_slug}"
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder, exist_ok=True)
 
     metadatas_df.to_csv(
         f"{output_folder}/metadatas.csv", sep=";", decimal=".", index=False

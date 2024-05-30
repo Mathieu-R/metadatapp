@@ -5,6 +5,7 @@ mutagen==1.47.0
 numpy==1.26.4
 packaging==24.0
 pandas==2.2.2
+pillow==10.3.0
 pyinstaller==6.7.0
 pyinstaller-hooks-contrib==2024.6
 python-dateutil==2.9.0.post0
