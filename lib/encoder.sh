@@ -20,8 +20,12 @@ encode () {
 
     parent_dir=$(realpath ".")
 
+    echo "-- creating folders..."
+
     mkdir -p "$parent_dir/data/$album_slug/src/$filename_slug"
     mkdir -p "$parent_dir/data/$album_slug/dest/$filename_slug"
+
+    echo "-- encoding file using ffmpeg..."
 
     # encode mp3 file in aac wrapped in mp4 container
     # note: libfdk_aac is an alternative to aac
@@ -31,7 +35,9 @@ encode () {
     ffmpeg -y -i "$input_dir/$filename.$extension" -c:a aac -b:a 192000 -ar 48000 -ac 2 -vn -sn "$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4"
     ffmpeg -y -i "$input_dir/$filename.$extension" -c:a aac -b:a 256000 -ar 48000 -ac 2 -vn -sn "$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-256.mp4"
 
-    # prepare DASH manifest
+    echo "-- generating DASH manifest..."
+
+    prepare DASH manifest
     ./lib/packager \
         input="$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-128.mp4",stream=audio,output="$parent_dir/data/$album_slug/dest/$filename_slug/$filename_slug-128.mp4",playlist_name="$filename_slug-128.m3u8" \
         input="$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4",stream=audio,output="$parent_dir/data/$album_slug/dest/$filename_slug/$filename_slug-192.mp4",playlist_name="$filename_slug-192.m3u8" \

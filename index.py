@@ -36,7 +36,7 @@ def extract_metadata(fullpath, filename, extension):
         f.write(cover_art.data)
 
     img = Image.open(f"{output_cover_art}")
-    img = img.resize((300, 300))
+    img = img.resize((500, 500))
     img.save(output_cover_art, "JPEG")
 
     return {
@@ -83,33 +83,7 @@ def main(directory):
 
     # spawn a shell process to encode files and create playlists
     args = [directory, album]
-    process = subprocess.Popen(
-        [os.path.join(os.getcwd(), "lib/encoder.sh")] + args,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        close_fds=True,
-    )
-
-    while True:
-        output = process.stdout.readline()
-        if process.poll() is not None:
-            break
-        if output:
-            print(output.strip())
-
-    rc = process.poll()
-
-    output, error = process.communicate(timeout=500)
-    return_code = process.returncode
-
-    if return_code == 0:
-        print("Encoder script executed successfully")
-        print("Output:")
-        print(output.decode())
-    else:
-        print("Encoder script failed with error code:", return_code)
-        print("Error output:")
-        print(error.decode())
+    process = subprocess.run([os.path.join(os.getcwd(), "lib/encoder.sh")] + args)
 
     # write metadatas to a csv file
     metadatas_df = pd.DataFrame(metadatas)
