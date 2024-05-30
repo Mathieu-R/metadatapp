@@ -1,29 +1,40 @@
 #!/bin/bash
-# usage ./encoder.sh <input_dir> <album>
+# usage ./encoder.sh <media_dir> <cwd> <album>
 # params:
-# input_dir: where the media files are located on disk
+# media_dir: where the media files are located on disk
+# cwd: absolute path current working directory (i.e. where the script is executed from not where it is located)
 # album: name of the album 
 
-# slugify with "_" instead of "-"
+# Slugify
+# Transliterate everything to ASCII
+# Strip out apostrophes
+# Anything that's not a letter or number to a underscore
+# Strip leading & trailing underscores
+# Everything to lowercase
+# https://duncanlock.net/blog/2021/06/15/good-simple-bash-slugify-function/ 
 slugify() {
-    echo "$1" | iconv -c -t ascii//TRANSLIT | sed -E 's/[~^]+//g' | sed -E 's/[^a-zA-Z0-9]+/_/g' | sed -E 's/^-+|-+$//g' | tr A-Z a-z
+  echo "$1" \
+  | iconv -t ascii//TRANSLIT \
+  | tr -d "'" \
+  | sed -E 's/[^a-zA-Z0-9]+/_/g' \
+  | sed -E 's/^_+|_+$//g' \
+  | tr "[:upper:]" "[:lower:]"
 }
 
 encode () {
-    filename=$1
-    extension=$2
+    media_dir=$1
+    cwd=$2
     album=$3
-    input_dir=$4
+    filename=$4
+    extension=$5
 
     filename_slug=$(slugify "$filename")
     album_slug=$(slugify "$album")
 
-    parent_dir=$(realpath ".")
+    #parent_dir=$(realpath ".")
 
-    echo "-- creating folders..."
-
-    mkdir -p "$parent_dir/data/$album_slug/src/$filename_slug"
-    mkdir -p "$parent_dir/data/$album_slug/dest/$filename_slug"
+    mkdir -p "$cwd/data/$album_slug/src/$filename_slug"
+    mkdir -p "$cwd/data/$album_slug/dest/$filename_slug"
 
     echo "-- encoding file using ffmpeg..."
 
@@ -31,21 +42,21 @@ encode () {
     # note: libfdk_aac is an alternative to aac
     # -vn disable video
     # -sn disable subtitle
-    ffmpeg -y -i "$input_dir/$filename.$extension" -c:a aac -b:a 128000 -ar 48000 -ac 2 -vn -sn "$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-128.mp4"
-    ffmpeg -y -i "$input_dir/$filename.$extension" -c:a aac -b:a 192000 -ar 48000 -ac 2 -vn -sn "$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4"
-    ffmpeg -y -i "$input_dir/$filename.$extension" -c:a aac -b:a 256000 -ar 48000 -ac 2 -vn -sn "$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-256.mp4"
+    ffmpeg -y -i "$media_dir/$filename.$extension" -c:a aac -b:a 128000 -ar 48000 -ac 2 -vn -sn "$cwd/data/$album_slug/src/$filename_slug/$filename_slug-128.mp4"
+    ffmpeg -y -i "$media_dir/$filename.$extension" -c:a aac -b:a 192000 -ar 48000 -ac 2 -vn -sn "$cwd/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4"
+    ffmpeg -y -i "$media_dir/$filename.$extension" -c:a aac -b:a 256000 -ar 48000 -ac 2 -vn -sn "$cwd/data/$album_slug/src/$filename_slug/$filename_slug-256.mp4"
 
     echo "-- generating DASH manifest..."
 
     prepare DASH manifest
     ./lib/packager \
-        input="$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-128.mp4",stream=audio,output="$parent_dir/data/$album_slug/dest/$filename_slug/$filename_slug-128.mp4",playlist_name="$filename_slug-128.m3u8" \
-        input="$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4",stream=audio,output="$parent_dir/data/$album_slug/dest/$filename_slug/$filename_slug-192.mp4",playlist_name="$filename_slug-192.m3u8" \
-        input="$parent_dir/data/$album_slug/src/$filename_slug/$filename_slug-256.mp4",stream=audio,output="$parent_dir/data/$album_slug/dest/$filename_slug/$filename_slug-256.mp4",playlist_name="$filename_slug-256.m3u8" \
+        input="$cwd/data/$album_slug/src/$filename_slug/$filename_slug-128.mp4",stream=audio,output="$cwd/data/$album_slug/dest/$filename_slug/$filename_slug-128.mp4",playlist_name="$filename_slug-128.m3u8" \
+        input="$cwd/data/$album_slug/src/$filename_slug/$filename_slug-192.mp4",stream=audio,output="$cwd/data/$album_slug/dest/$filename_slug/$filename_slug-192.mp4",playlist_name="$filename_slug-192.m3u8" \
+        input="$cwd/data/$album_slug/src/$filename_slug/$filename_slug-256.mp4",stream=audio,output="$cwd/data/$album_slug/dest/$filename_slug/$filename_slug-256.mp4",playlist_name="$filename_slug-256.m3u8" \
     --min_buffer_time 3 \
     --segment_duration 3 \
-    --hls_master_playlist_output "$parent_dir/data/$album_slug/dest/$filename_slug/playlist-all.m3u8" \
-    --mpd_output "$parent_dir/data/$album_slug/dest/$filename_slug/manifest-full.mpd"
+    --hls_master_playlist_output "$cwd/data/$album_slug/dest/$filename_slug/playlist-all.m3u8" \
+    --mpd_output "$cwd/data/$album_slug/dest/$filename_slug/manifest-full.mpd"
 }
 
 # for each media file in the given folder
@@ -55,8 +66,9 @@ i=1
 
 for file in "${files[@]}"; do
     if [ -f "$file" ]; then
-        input_dir=$1
-        album=$2
+        media_dir=$1
+        cwd=$2
+        album=$3
 
         filename=$(basename "$file")
         extension="${filename##*.}"
@@ -65,7 +77,7 @@ for file in "${files[@]}"; do
 
         if [ "$extension" = mp3 ] || [ "$extension" = flac ] || [ "$extension" = m4a ]; then
             filename="${filename%.*}"
-            encode "$filename" "$extension" "$album" "$input_dir"
+            encode "$media_dir" "$cwd" "$album" "$filename" "$extension" 
         fi
     fi
 

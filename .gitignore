@@ -4,6 +4,7 @@ logs
 
 .env
 dist
+build/**
 
 # Editor directories and files
 .vscode/*
@@ -17,5 +18,6 @@ dist
 *.sw?
 
 __pycache__
+*.spec
 
 data

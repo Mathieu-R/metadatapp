@@ -23,6 +23,11 @@ Options:
   --help                Show this message and exit.
 ```
 
+### Bundle the app
+```
+pyinstaller --onefile --add-data lib:lib --name metadatapp index.py
+```
+
 ### Caveats
 - Ensure the input path does not contain any spaces.
 - This only works on Mac OS with Apple Silicon CPU. If you are on another configuration, download the correct prebuilt-binary from the shaka-packager repo, rename it to **packager** and place it in the lib **lib**.

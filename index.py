@@ -25,7 +25,7 @@ def extract_metadata(fullpath, filename, extension):
     album_slug = slugify(metadata["album"][0], separator="_")
     filename_slug = slugify(filename, separator="_")
 
-    output_folder = f"data/{album_slug}"
+    output_folder = f"{os.getcwd()}/data/{album_slug}"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder, exist_ok=True)
 
@@ -58,14 +58,16 @@ def extract_metadata(fullpath, filename, extension):
 
 @click.command()
 @click.option(
-    "--directory",
+    "--media_directory",
     "-d",
     type=click.STRING,
     required=True,
     help="Absolute path directory where the media files are stored",
 )
-def main(directory):
-    files = os.listdir(directory)
+def main(media_directory):
+    files = os.listdir(media_directory)
+    # get the current directory where the script is executed
+    cwd = os.getcwd()
     metadatas = []
 
     for file in files:
@@ -73,17 +75,19 @@ def main(directory):
         if extension not in (".mp3", ".flac", ".m4a"):
             continue
 
-        fullpath = os.path.join(directory, file)
+        fullpath = os.path.join(media_directory, file)
         metadata = extract_metadata(fullpath, filename, extension)
         metadatas.append(metadata)
 
     album = metadatas[0]["album"]
     album_slug = slugify(album, separator="_")
-    output_folder = f"data/{album_slug}"
+    output_folder = f"{cwd}/data/{album_slug}"
 
     # spawn a shell process to encode files and create playlists
-    args = [directory, album]
-    process = subprocess.run([os.path.join(os.getcwd(), "lib/encoder.sh")] + args)
+    lib_folder = os.path.join(os.path.dirname(__file__), "lib")
+    print(f"DEBUG: lib_folder: {lib_folder}")
+    args = [media_directory, cwd, album]
+    process = subprocess.run([os.path.join(lib_folder, "encoder.sh")] + args)
 
     # write metadatas to a csv file
     metadatas_df = pd.DataFrame(metadatas)
