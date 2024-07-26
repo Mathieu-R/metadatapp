@@ -49,7 +49,7 @@ encode () {
 
     echo "-- generating DASH manifest..."
 
-    prepare DASH manifest
+    # prepare DASH manifest
     ./lib/packager \
         input="${input_folder}/${filename_slug}-128.mp4",stream=audio,output="${output_folder}/$filename_slug-128.mp4",playlist_name="${filename_slug}-128.m3u8" \
         input="${input_folder}/${filename_slug}-192.mp4",stream=audio,output="${output_folder}/$filename_slug-192.mp4",playlist_name="${filename_slug}-192.m3u8" \
