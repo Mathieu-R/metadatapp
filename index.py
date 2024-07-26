@@ -1,5 +1,6 @@
 import os
 import re
+import shutil
 import subprocess
 from io import BytesIO
 
@@ -39,14 +40,11 @@ def extract_metadata(fullpath, filename, extension):
 
     cover_art = metadata.pictures[0]
 
-    # with open(f"{output_cover_art}", "wb") as f:
-    #     f.write(cover_art.data)
-
     img = Image.open(BytesIO(cover_art.data))
     img_256 = img.resize((512, 512))
     img_256.save(f"{output_folder}/album_cover_512.jpg", "JPEG")
 
-    return {
+    metadata_dict = {
         "album": metadata["album"][0],
         "artist": metadata["artist"][0],
         "album_artist": metadata["albumartist"][0],
@@ -63,6 +61,12 @@ def extract_metadata(fullpath, filename, extension):
         "audio256_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/{filename_slug}-256.mp4",
     }
 
+    return {
+        "metadata": metadata_dict,
+        "filename_slug": filename_slug,
+        "output_folder": output_folder,
+    }
+
 
 @click.command()
 @click.option(
@@ -74,8 +78,6 @@ def extract_metadata(fullpath, filename, extension):
 )
 def main(media_directory):
     files = os.listdir(media_directory)
-    # get the current directory where the script is executed
-    cwd = os.getcwd()
     metadatas = []
 
     for file in files:
@@ -83,29 +85,35 @@ def main(media_directory):
         if extension not in (".mp3", ".flac", ".m4a"):
             continue
 
-        fullpath = os.path.join(media_directory, file)
-        metadata = extract_metadata(fullpath, filename, extension)
-        metadatas.append(metadata)
+        media_path = os.path.join(media_directory, file)
+        result = extract_metadata(media_path, filename, extension)
 
-    album_artist = metadatas[0]["album_artist"]
-    album = metadatas[0]["album"]
-    album_slug = slugify(remove_parentheses(album), separator="_")
-    album_artist_slug = slugify(album_artist, separator="_")
-    output_folder = f"{cwd}/data/{album_artist_slug}/{album_slug}"
+        media_slug = result["filename_slug"]
+        output_folder = result["output_folder"]
 
-    # spawn a shell process to encode files and create playlists
-    lib_folder = os.path.join(os.path.dirname(__file__), "lib")
-    # print(f"DEBUG: lib_folder: {lib_folder}")
-    args = [media_directory, cwd, album_artist, remove_parentheses(album)]
-    process = subprocess.run([os.path.join(lib_folder, "encoder.sh")] + args)
+        # spawn a shell process to encode files and create playlists
+        lib_folder = os.path.join(os.path.dirname(__file__), "lib")
 
-    # write metadatas to a csv file
+        args = [
+            media_path,
+            media_slug,
+            output_folder
+        ]
+        subprocess.run([os.path.join(lib_folder, "file_encoder.sh")] + args)
+
+        # add file metadata
+        metadatas.append(result["metadata"])
+
+    # write album metadata to a csv file
     metadatas_df = pd.DataFrame(metadatas)
     metadatas_df = metadatas_df.sort_values(by=["track_number"])
 
     metadatas_df.to_csv(
         f"{output_folder}/metadata.csv", sep=";", decimal=".", index=False
     )
+
+    # remove ffmpgeg temp folder
+    shutil.rmtree(f"{output_folder}/src")
 
 
 if __name__ == "__main__":
