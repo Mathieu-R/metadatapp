@@ -104,7 +104,7 @@ def main(media_directory):
     metadatas_df = metadatas_df.sort_values(by=["track_number"])
 
     metadatas_df.to_csv(
-        f"{output_folder}/metadatas.csv", sep=";", decimal=".", index=False
+        f"{output_folder}/metadata.csv", sep=";", decimal=".", index=False
     )
 
 
