@@ -1,5 +1,7 @@
 import os
+import re
 import subprocess
+from io import BytesIO
 
 import click
 import pandas as pd
@@ -9,6 +11,10 @@ from mutagen.mp3 import MP3
 from PIL import Image
 from slugify import slugify
 
+
+def remove_parentheses(text):
+    text = re.sub(r'\([^()]*\)', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 def extract_metadata(fullpath, filename, extension):
     if extension == ".mp3":
@@ -22,22 +28,23 @@ def extract_metadata(fullpath, filename, extension):
             "Extension not supported. Currently we only support .mp3, .flac and .m4a"
         )
 
-    album_slug = slugify(metadata["album"][0], separator="_")
+
+    album_artist_slug = slugify(metadata["albumartist"][0], separator="_")
+    album_slug = slugify(remove_parentheses(metadata["album"][0]), separator="_")
     filename_slug = slugify(filename, separator="_")
 
-    output_folder = f"{os.getcwd()}/data/{album_slug}"
+    output_folder = f"{os.getcwd()}/data/{album_artist_slug}/{album_slug}"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder, exist_ok=True)
 
     cover_art = metadata.pictures[0]
-    output_cover_art = f"{output_folder}/{album_slug}.jpg"
 
-    with open(f"{output_cover_art}", "wb") as f:
-        f.write(cover_art.data)
+    # with open(f"{output_cover_art}", "wb") as f:
+    #     f.write(cover_art.data)
 
-    img = Image.open(f"{output_cover_art}")
-    img = img.resize((500, 500))
-    img.save(output_cover_art, "JPEG")
+    img = Image.open(BytesIO(cover_art.data))
+    img_256 = img.resize((512, 512))
+    img_256.save(f"{output_folder}/album_cover_512.jpg", "JPEG")
 
     return {
         "album": metadata["album"][0],
@@ -48,12 +55,12 @@ def extract_metadata(fullpath, filename, extension):
         "genre": metadata["genre"][0] if "genre" in metadata else "Unknown",
         "track_number": metadata["tracknumber"][0],
         "duration": metadata.info.length,
-        "cover_url": f"{album_slug}/{album_slug}.jpg",
-        "manifest_url": f"{album_slug}/{filename_slug}/manifest-full.mpd",
-        "playlist_url": f"{album_slug}/{filename_slug}/playlist-all.m3u8",
-        "audio128_url": f"{album_slug}/{filename_slug}/{filename_slug}-128.mp4",
-        "audio192_url": f"{album_slug}/{filename_slug}/{filename_slug}-192.mp4",
-        "audio256_url": f"{album_slug}/{filename_slug}/{filename_slug}-256.mp4",
+        "cover_url": f"{album_artist_slug}/{album_slug}/album_cover_512.jpg",
+        "manifest_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/manifest-full.mpd",
+        "playlist_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/playlist-all.m3u8",
+        "audio128_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/{filename_slug}-128.mp4",
+        "audio192_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/{filename_slug}-192.mp4",
+        "audio256_url": f"{album_artist_slug}/{album_slug}/{filename_slug}/{filename_slug}-256.mp4",
     }
 
 
@@ -80,14 +87,16 @@ def main(media_directory):
         metadata = extract_metadata(fullpath, filename, extension)
         metadatas.append(metadata)
 
+    album_artist = metadatas[0]["album_artist"]
     album = metadatas[0]["album"]
-    album_slug = slugify(album, separator="_")
-    output_folder = f"{cwd}/data/{album_slug}"
+    album_slug = slugify(remove_parentheses(album), separator="_")
+    album_artist_slug = slugify(album_artist, separator="_")
+    output_folder = f"{cwd}/data/{album_artist_slug}/{album_slug}"
 
     # spawn a shell process to encode files and create playlists
     lib_folder = os.path.join(os.path.dirname(__file__), "lib")
     # print(f"DEBUG: lib_folder: {lib_folder}")
-    args = [media_directory, cwd, album]
+    args = [media_directory, cwd, album_artist, remove_parentheses(album)]
     process = subprocess.run([os.path.join(lib_folder, "encoder.sh")] + args)
 
     # write metadatas to a csv file
